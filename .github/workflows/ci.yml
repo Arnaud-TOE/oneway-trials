@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      # Unit tests, including the end-to-end privacy test (src/engine/__tests__/leak.test.ts)
+      # and the checks on the built-in recorded example.
+      - run: npm test
+      # Production build. It needs no Firebase configuration: without one the app says so.
+      - run: npm run build
