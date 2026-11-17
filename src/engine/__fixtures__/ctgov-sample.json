@@ -1,0 +1,228 @@
+{
+ "studies": [
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07174336",
+     "briefTitle": "A Study of Tersolisib (LY4064809/STX-478) With Other Anti-Cancer Treatments in Participants With Advanced Breast Cancer With a Genetic Change (PIK3CA)"
+    },
+    "statusModule": {
+     "overallStatus": "RECRUITING"
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "name": "Eli Lilly and Company"
+     }
+    },
+    "descriptionModule": {
+     "briefSummary": "The purpose of the study is to assess the efficacy and safety of the addition of Tersolisib (LY4064809/STX-478) to other anti-cancer drugs as first treatment for advanced hormone receptor-positive (HR+)/human epidermal growth factor receptor 2-negative (HER2-) breast cancer. Participants can remain in the study as long as the drug is helping the cancer without unbearable side effects."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Breast Neoplasms",
+      "Neoplasm Metastasis"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE3"
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Are willing to follow contraception requirements. Contraceptive use by participants should be consistent with local regulations regarding the methods of contraception for those participating in clinical trials.\n* If assigned female at birth, pre-/peri- and postmenopausal status is allowed. Those with pre- or peri-menopausal status at study entry must agree to use ovarian function suppression with any locally approved gonadotropin-releasing hormone (GnRH) agonist.\n* If assigned male at birth with an estrogen receptor positive (ER+) breast cancer diagnosis, they must agree to use hormone suppression with a GnRH agonist.\n* Have histologically or cytologically confirmed breast cancer, defined as individuals with\n\n  * locally advanced breast cancer not amenable to curative therapy (for example, surgery) or metastatic disease, and\n  * hormone receptors (HR)+/human epidermal growth factor receptor 2 (HER2)- or HR+/HER low defined by American Society of Clinical Oncology (ASCO)/College of American Pathologists (CAP) Guidelines\n\n    * HR status: Documented ER+ and/or progesterone receptor-positive (PR+) tumor according to ASCO/CAP Guidelines, defined as greater than or equal to (≥)1 percent (%) of tumor cells stained positive based on the most recent tumor biopsy and assessed locally\n    * HER status: immunohistochemistry score of 1+ or score of 2+ with a negative Fluorescence In Situ Hybridization (FISH) based on local results as defined in the ASCO/CAP Guidelines\n* Have evidence of an activating PIK3CA mutation, detected in tumor or blood samples using an appropriate assay.\n* Have measurable disease or non-measurable, evaluable bone disease\n* Part 1:\n\n  * Received 0-2 prior systemic treatments for advanced breast cancer not amenable to curative therapy (for example, surgery) or metastatic disease.\n  * Up to 1 of these prior systemic treatments may contain chemotherapy\n* Part 2:\n\n  * Received 0 prior systemic treatment for advanced breast cancer not amenable to curative therapy (for example, surgery) or metastatic disease.\n  * Individuals who are eligible are either\n\n    * Population 1 (P1): Endocrine sensitive\n\n      * newly diagnosed with advanced breast cancer (de novo)\n      * participants with a history of HR+, HER2- EBC and did not receive SOC adjuvant ET\n      * relapsed with documented evidence of progression greater than (\\>)12 months from completion of (neo)adjuvant ET ± cyclin-dependent kinases 4 and 6 (CDK4/6) inhibitor, or\n    * Population 2 (P2): Endocrine resistant\n\n      * relapsed with documented evidence of progression less than or equal to (≤)12 months of completing (neo)adjuvant ET ± CDK4/6 inhibitor.\n      * if a CDK4/6 inhibitor was included as part of neoadjuvant or adjuvant therapy, progression event must be \\>12 months since completion of CDK4/6 inhibitor portion of neoadjuvant or adjuvant therapy.\n\nExclusion Criteria:\n\n* Have an established diagnosis of Type 1 diabetes mellitus or Type 2 diabetes mellitus with hemoglobin A1c (HbA1c) ≥8%, fasting blood glucose (FBG) ≥140 milligrams per deciliter (mg/dL) (7.7 millimoles per liter \\[mmol/L\\]), or requiring insulin.\n* Have inflammatory or metaplastic breast cancer.\n* History of leptomeningeal disease or carcinomatous meningitis.\n* Have known and untreated or active central nervous system (CNS) metastases. Exception: Asymptomatic brain or spinal metastases if treated by surgery, surgery plus radiotherapy, or radiotherapy alone with no evidence of radiographic progression or hemorrhage within at least 28 days before randomization and no requirement for anticonvulsants or systemic corticosteroids for at least 28 days before randomization.\n* Have received treatment with any local or systemic antineoplastic therapy or investigational anticancer agent within 14 days or 4 half-lives, whichever is longer, prior to randomization up to a maximum washout period of 28 days.\n* Have a diagnosis of immunodeficiency or is receiving chronic systemic steroid therapy (dose more than 10 milligrams \\[mg\\] daily of prednisone equivalent) or any other form of immunosuppressive therapy within 7 days prior to randomization.\n* Are pregnant, breastfeeding, or intend to become pregnant during the study or within 6 months of the last dose of study intervention and at least 2 years after the last dose of fulvestrant and/or CDK4/6 inhibitor after the final administration of study treatment.\n* Have active bacterial or fungal infection that is not recovered at randomization.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years"
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "Alaska Oncology and Hematology",
+       "city": "Anchorage",
+       "state": "Alaska",
+       "country": "United States"
+      },
+      {
+       "facility": "Ironwood Cancer & Research Centers",
+       "city": "Chandler",
+       "state": "Arizona",
+       "country": "United States"
+      },
+      {
+       "facility": "St. Joseph's Hospital and Medical Center",
+       "city": "Phoenix",
+       "state": "Arizona",
+       "country": "United States"
+      },
+      {
+       "facility": "Mayo Clinic in Arizona - Phoenix",
+       "city": "Phoenix",
+       "state": "Arizona",
+       "country": "United States"
+      },
+      {
+       "facility": "The University of Arizona Cancer Center - North Campus",
+       "city": "Tucson",
+       "state": "Arizona",
+       "country": "United States"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07383506",
+     "briefTitle": "A Study of Mutant Selective-Inhibitor (CGT6297), in Patients With Advanced Solid Tumors"
+    },
+    "statusModule": {
+     "overallStatus": "RECRUITING"
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "name": "Cogent Biosciences, Inc."
+     }
+    },
+    "descriptionModule": {
+     "briefSummary": "This is a Phase 1, two-part, open-label, nonrandomized, dose-escalation and signal-seeking study of CGT6297, evaluating the safety, tolerability, PK, pharmacodynamic (what the drug does to the body), and antitumor activity of CGT6297 in adult participants with advanced solid tumors harboring PIK3CA mutations"
+    },
+    "conditionsModule": {
+     "conditions": [
+      "PIK3CA Mutations",
+      "Advanced Solid Tumors, Adult",
+      "Endometrial Cancer",
+      "HR Positive/HER-2 Negative Breast Cancer",
+      "HER2-low Breast Cancer"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE1"
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n1. Histologically confirmed advanced solid tumor harboring oncogenic PIK3CA mutations in blood and/or tumor:\n\n   1. Phase 1b Cohort 1, participants must have PIK3CA endometrial cancer\n   2. Phase 1b Cohort 2, participants must have HR-positive/HER2-negative or HER2-low breast cancer (immunohistochemistry \\[IHC\\] and in-situ hybridization results must meet ASCO-College of American Pathology guidelines for breast cancer or criteria)\n   3. Phase 1b Cohort 3 will allow all solid tumors that do not meet criteria for Phase 1b Cohorts 1 or 2, including head and neck cancers, other gynecological cancers, colorectal cancers harboring PIK3CA mutations\n2. Meet prior treatment requirement of:\n\n   1. Phase 1a: previously treated with and refractory to or intolerant of existing therapy(ies) known to provide clinical benefit for their condition.\n   2. Phase 1b: previously treated with or considered not appropriate for SOC first-line treatment for their condition\n3. Have at least one measurable lesion according to RECIST v1.1.\n4. Eastern Cooperative Oncology Group (ECOG) Performance Status 0 to 1\n5. Have clinically acceptable local laboratory screening results (clinical chemistry and hematology) within certain limits\n6. Resolution of acute toxicities from prior anticancer therapy to ≤Grade 1 (or baseline), including resolution of clinically significant laboratory abnormalities (other than parameters specified in screening testing as outlined below), as determined by the National Cancer Institute-Common Terminology Criteria for Adverse Events (NCICTCAE) v5.0.\n7. Have an ejection fraction ≥50%\n\nExclusion Criteria:\n\n1. Received small molecule chemotherapy or anticancer therapies or radiotherapy within certain timeframes before first dose of study drug.\n2. Major surgeries (eg, abdominal laparotomy) within 4 weeks of the first dose of study drug\n3. Treatment with radiotherapy ≤2 weeks before the first dose of study drug.\n4. Clinically significant cardiac disease\n5. Ongoing or planned long-term (≥4 consecutive weeks) treatment with glucocorticoid steroids at greater than physiologic dosing (defined as equivalent to \\>20 mg/day prednisone)\n6. Diagnosis of diabetes mellitus type 1 or uncontrolled diabetes mellitus type 2 (defined as fasting glucose ≥140 mg/dL and HbA1c ≥7.0%; antihyperglycemic medical management permitted with the exception of insulin)\n7. Previous molecular testing (NGS or PCR) showed tumor with the following mutations: mutations/deletions in PTEN or activating mutations in AKT, HRAS/KRAS/NRAS, EGFR, and BRAF",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years"
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "HonorHealth Research Institute",
+       "city": "Scottsdale",
+       "state": "Arizona",
+       "country": "United States"
+      },
+      {
+       "facility": "START Los Angeles",
+       "city": "Los Angeles",
+       "state": "California",
+       "country": "United States"
+      },
+      {
+       "facility": "Stanford Cancer Center",
+       "city": "Palo Alto",
+       "state": "California",
+       "country": "United States"
+      },
+      {
+       "facility": "Sarah Cannon Research Institute (SCRI) at HealthONE-Denver",
+       "city": "Denver",
+       "state": "Colorado",
+       "country": "United States"
+      },
+      {
+       "facility": "H. Lee Moffitt Cancer Center and Research Institute Hospital, Inc.",
+       "city": "Tampa",
+       "state": "Florida",
+       "country": "United States"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT04787042",
+     "briefTitle": "Phase 1a and Phase 2 Study for Safety, Preliminary Efficacy, PK and PD of ST-067"
+    },
+    "statusModule": {
+     "overallStatus": "RECRUITING"
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "name": "Simcha IL-18, Inc."
+     }
+    },
+    "descriptionModule": {
+     "briefSummary": "This is a multiphase, multicenter study, which includes a Phase 1a open-label, dose escalation monotherapy study of ST-067 given as an SC injection with or without obinutuzumab \\[Gazyva®\\] pre-treatment, by IV infusion, and in combination with pembrolizumab. A Phase 2 monotherapy arm is also planned; the exact design of the Phase 2 study elements with respect to formulation and pre-treatment will be determined after completion of the Phase 1 study portion of the trial."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Cancer",
+      "Solid Tumor",
+      "Melanoma",
+      "Renal Cell Carcinoma",
+      "Triple-negative Breast Cancer",
+      "Non Small Cell Lung Cancer",
+      "Squamous Cell Carcinoma of the Head and Neck",
+      "Carcinoma",
+      "MSI-High"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male and female patients aged ≥18 years\n2. Must provide written informed consent and any authorizations required by local law\n3. Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1\n4. Have histologically or cytologically confirmed diagnosis of advanced/metastatic solid tumor\n\n   For Phase 1a, the following solid tumors are allowed: Melanoma, Merkel cell, RCC, urothelial, NSCLC,TNBC, SCCHN, microsatellite instability high, high tumor mutation burden (Hi TMB) or mismatch repair deficient, gastric, cervical, endometrial, cutaneous squamous, small cell lung, esophageal, hepatocellular carcinoma and platinum resistant ovarian cancer.\n   1. For patients who have developed disease progression through standard therapy, or\n   2. For patients whom standard of care therapy that prolongs survival is unavailable or unsuitable (according to the investigator and after consultation with the Medical Monitor) For Phase 1 combination therapy dose escalation, the following solid tumors are allowed: Melanoma, Merkel cell, RCC, urothelial, NSCLC (with no EGFR, TRK receptor, or ALK positive mutations/fusions), TNBC, SCCHN, MSI-Hi tumors, Hi TMB or mismatch repair deficient, gastric, cervical, endometrial, cutaneous squamous, small cell lung, esophageal, and HCC\n\n      * TNBC is diagnosed in a tumor which does not express estrogen receptor or progesterone receptor, is not human epidermal growth factor receptor 2 (HER2) 3+ on IHC or is negative by fluorescence in situ hybridization (FISH).\n      * MSI high tumor should have mutations in 30% or more microsatellites by PCR or be negative for MSH1/2/6 or PMS-2 by IHC.\n      * Hi-TMB high tumor has 10 mut/Mb or greater calculated from whole genome sequencing or whole exome sequencing\n\n   For Phase 2, the following solid tumors are allowed:\n\n   Melanoma, RCC, TNBC, NSCLC, SCCHN, and MSI-Hi tumors\n5. Has at least 1 measurable lesion per RECIST 1.1 criteria which has not been biopsied or received prior irradiation\n6. Has an accessible tumor for biopsy pre- and on-treatment (mandatory).\n\nExclusion Criteria:\n\n1. History of another malignancy\n2. Known symptomatic brain metastases requiring \\>10 mg/day of prednisolone or equivalent\n3. Significant cardiovascular disease (MI, thrombotic events,) within 6 months prior to study treatmentSignificant ECG abnormalities (Phase 1a and 2 monotherapy only) including unstable cardiac arrhythmia requiring medication, second-degree atrioventricular block type II, third degree AV\n4. Any degree of respiratory compromise (from either malignant or non-malignant disease)\n5. Evidence of an ongoing systemic bacterial, fungal, or viral infection\n6. Has received a live vaccine within 30 days\n7. Major surgery within 4 weeks\n8. Prior solid organ or bone marrow progenitor cell transplantation\n9. Prior high dose chemotherapy requiring stem cell rescue\n10. History of active autoimmune disorders\n11. Ongoing immunosuppressive therapy, including systemic or enteric corticosteroids.\n12. Treatment with an approved, systemic anticancer therapy or an investigational agent within 4 weeks of Day 1\n13. A positive severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) viral test within 28 days prior to dosing, unless there is Investigator-confirmed clinical recovery on or before C1D1\n14. Subjects with adrenal insufficiency\n15. Subjects with any chemistry or hematology laboratory values that are ≥Grade 2\n\n    Additional exclusion criteria for Phase 1 combination therapy only:\n16. Presence of known active CNS metastases and/or carcinomatous meningitis. Subjects with previously treated brain metastases may participate provided they are radiologically stable, i.e., without evidence of progression for at least 4 weeks by repeat imaging, clinically stable, and without requirement of steroid treatment for at least 14 days prior to first dose of study treatment.\n17. Prior radiotherapy within 2 weeks of start of study treatment or history of radiation pneumonitis.\n18. Presence of an active documented autoimmune disease that has required systemic treatment in the past 2 years (i.e., with use of disease modifying agents, corticosteroids, or immunosuppressive drugs). Replacement therapy (e.g., thyroxine or insulin) is not considered a form of systemic treatment and is allowed. Subjects may use topical and/or inhaled corticosteroids. However, subjects with adrenal insufficiency on replacement doses of steroids are not allowed.\n19. Prior therapy with an anti-PD-1, anti-PD-L1, or anti-PD-L2 agent or with an agent directed to another stimulatory or co-inhibitory T-cell receptor (e.g., CTLA-4, OX40, CD137), and was discontinued from that treatment due to a Grade 3 or higher irAE\n20. Severe hypersensitivity (≥Grade 3) to pembrolizumab and/or any of its excipients. Subjects who have been retreated after such a reaction may be allowed after discussion with the Simcha Medical Monitor\n21. History of (non-infectious) pneumonitis/interstitial lung disease that required steroids or has current pneumonitis/interstitial lung disease\n22. Subjects that have received radiation therapy to the lung that is \\>30Gy within 6 months of the first dose of study treatment",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years"
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "HonorHealth Research Institute",
+       "city": "Scottsdale",
+       "state": "Arizona",
+       "country": "United States"
+      },
+      {
+       "facility": "Sarah Cannon Research Institute at HealthONE",
+       "city": "Denver",
+       "state": "Colorado",
+       "country": "United States"
+      },
+      {
+       "facility": "Yale Cancer Center",
+       "city": "New Haven",
+       "state": "Connecticut",
+       "country": "United States"
+      },
+      {
+       "facility": "Moffitt Cancer Center",
+       "city": "Tampa",
+       "state": "Florida",
+       "country": "United States"
+      },
+      {
+       "facility": "Massachusetts General Hospital",
+       "city": "Boston",
+       "state": "Massachusetts",
+       "country": "United States"
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

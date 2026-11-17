@@ -1,0 +1,46 @@
+{
+  "name": "oneway-trials",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "Apache-2.0",
+  "description": "Clinical trial matching where your medical record never leaves your browser. Hybrid inference with Firebase AI Logic.",
+  "homepage": "https://oneway-trials.web.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Arnaud-TOE/oneway-trials.git"
+  },
+  "scripts": {
+    "prepare": "git config core.hooksPath .githooks || exit 0",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "deploy:rules": "firebase deploy --only firestore:rules",
+    "deploy": "npm run build && firebase deploy --only hosting,firestore:rules",
+    "predev": "node scripts/copy-vendor-assets.mjs",
+    "prebuild": "node scripts/copy-vendor-assets.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/geist": "5.3.0",
+    "@fontsource/instrument-serif": "5.3.0",
+    "@tesseract.js-data/eng": "1.0.0",
+    "firebase": "^13.3.0",
+    "idb-keyval": "6.3.0",
+    "lucide-react": "1.61.0",
+    "pdfjs-dist": "6.5.438",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tesseract.js": "7.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "firebase-tools": "^15.36.0",
+    "typescript": "^7.0.2",
+    "vite": "^6.4.6",
+    "vitest": "^3.2.7"
+  }
+}

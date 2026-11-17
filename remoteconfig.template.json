@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "model_name": {
+      "defaultValue": { "value": "gemini-3.5-flash-lite" },
+      "description": "Cloud Gemini model for public data only: compiling trial criteria, explanations, fictional patients. The evaluation in bench/RESULTS.md was measured with gemini-3.5-flash-lite.",
+      "valueType": "STRING"
+    },
+    "fallback_model_name": {
+      "defaultValue": { "value": "none" },
+      "description": "Off (none) by default. A Gemini model name here is tried once, for at most 45 s, when model_name is still overloaded (HTTP 500/503) after three retries. Use it only if model_name is down while another model works.",
+      "valueType": "STRING"
+    }
+  }
+}
