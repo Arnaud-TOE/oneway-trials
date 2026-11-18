@@ -15,17 +15,18 @@ inference SDK, for **Web (Chrome)**.
 |---|---|
 | Live app | [oneway-trials.web.app](https://oneway-trials.web.app) (Chrome on a desktop computer) |
 | Demo video | *YouTube link added with the Devpost submission* |
-| On-device run, recorded | On the live app: **Watch a real run, recorded with the on-device model** (75 s, no Gemini Nano needed) |
+| On-device run, recorded | [oneway-trials.web.app/#recorded](https://oneway-trials.web.app/#recorded): a real private run replayed in 75 s, no Gemini Nano needed |
 | Evaluation | [bench/RESULTS.md](bench/RESULTS.md): 84.2% agreement with physicians on pairs it had never seen |
 
-![A real run, replayed: 13 recruiting trials checked on the device, 4 worth discussing with a doctor, and the privacy ledger: 15 requests left the device, none contains text from the record; 71 on-device model calls, 0 bytes sent](docs/recorded-run.jpg)
+[![A real run, replayed: 13 recruiting trials checked on the device, 4 worth discussing with a doctor, and the privacy ledger: 15 requests left the device, none contains text from the record; 71 on-device model calls, 0 bytes sent](docs/recorded-run.png)](https://oneway-trials.web.app/#recorded)
 
 > OneWay is not a medical device and does not decide who can join a trial. Only a trial team can. It helps a patient
 > prepare a conversation with their doctor.
 
 ## TL;DR for judges
 
-- **No Gemini Nano in your Chrome?** Click **Watch a real run, recorded with the on-device model**. It replays a real
+- **No Gemini Nano in your Chrome?** Open [oneway-trials.web.app/#recorded](https://oneway-trials.web.app/#recorded),
+  or click **Watch a real run, recorded with the on-device model** on the home page. It replays a real
   private run made on a laptop CPU with a fictional patient: a PDF letter and a photo of lab results opened in the
   page, the record read by Gemini Nano, the search approved, 13 trials checked on the device. The replay computes
   and sends nothing; the ledger shows the run's real timings and requests. Or click **Try a fictional patient**:

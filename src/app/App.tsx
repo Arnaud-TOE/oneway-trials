@@ -15,6 +15,14 @@ import { labText, sameCondition, tabTitle } from "./view";
 import "./styles.css";
 
 function DeviceChip({ s }: { s: SessionState }) {
+  // During a replay nothing runs here: this browser's model has nothing to do with what is shown.
+  if (s.replay) {
+    return (
+      <span className="chip" title="A recorded run is being shown. Nothing is computed or sent.">
+        Replaying a recorded run
+      </span>
+    );
+  }
   if (s.device === null) return <span className="chip">Checking this browser…</span>;
   if (s.device === "available") {
     return (

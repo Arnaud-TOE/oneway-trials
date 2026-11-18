@@ -29,6 +29,10 @@ import type { CompiledCriterion, CriterionResult, Profile, RecordLevel, Trial, T
 import { deviceAvailability, isAbort, prepareDeviceModel, type DeviceAvailability } from "../lib/hybrid";
 import { looksUrgent } from "./safety";
 import { applyEntry, delayFor, initialView, toRecording, type Recording } from "./recording";
+import { EXAMPLE_READY } from "./recorded/ready";
+
+/** The address fragment that opens the recorded example directly. */
+export const RECORDED_HASH = "#recorded";
 import type { SamplePatient } from "./samples";
 import { criteriaSignature, forgetMemory, keptAnswers, loadMemory, saveMemory, type FollowUp, type Memory, type SavedTrial } from "./memory";
 import { toast } from "./toast";
@@ -306,6 +310,8 @@ class Session {
   init(): void {
     void this.refreshDevice();
     void this.loadKept();
+    // A direct link to the recorded example: https://oneway-trials.web.app/#recorded
+    if (EXAMPLE_READY && typeof location !== "undefined" && location.hash === RECORDED_HASH) void this.playExample();
     if (typeof window !== "undefined") {
       window.addEventListener("online", () => this.set({ online: true }));
       window.addEventListener("offline", () => this.set({ online: false }));
@@ -824,6 +830,8 @@ class Session {
   }
 
   reset(): void {
+    // Leaving the example: a reload must not start it again.
+    if (typeof location !== "undefined" && location.hash === RECORDED_HASH) history.replaceState(null, "", location.pathname + location.search);
     this.flushPersist();
     this.stopEverything();
     for (const c of this.importAborts.values()) c.abort();
